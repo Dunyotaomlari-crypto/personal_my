@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fiverr Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #eef2f3;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 40px 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 25px;
+            background: #ff7e5f;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
+        }
+        .cta-button:hover {
+            transform: scale(1.1);
+            background: #feb47b;
+        }
+        section {
+            padding: 30px;
+            background: white;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        .service, .portfolio-item {
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            background: #f9f9f9;
+            transition: background 0.3s;
+        }
+        .service:hover, .portfolio-item:hover {
+            background: #e3e3e3;
+        }
+        .portfolio-item img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .portfolio-item img:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-item a {
+            display: block;
+            margin-top: 10px;
+            color: #667eea;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .portfolio-item a:hover {
+            color: #764ba2;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Professional Web Developer | Fiverr Freelancer</p>
+        <a href="https://www.fiverr.com/yourprofile" target="_blank" class="cta-button">Hire Me on Fiverr</a>
+    </header>
+    
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Custom and responsive websites tailored to your needs.</p>
+        </div>
+        <div class="service">
+            <h3>UI/UX Design</h3>
+            <p>Modern and user-friendly interfaces for better engagement.</p>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <h3>Project 1</h3>
+            <p>web application about world cuisine</p>
+            <a href="https://dunyotaomlari-crypto.github.io/dunyo-taomlari/" target="_blank">View Project</a>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project 2</h3>
+            <p>Pressing the + and - buttons on the balloon will slow down or speed up.</p>
+            <a href="https://dunyotaomlari-crypto.github.io/dunyo-taomlari/" target="_blank">View Project</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Contact me at <a href="nurilloxonabdullayev5@gmail.com">nurilloxonabdullayev5@gmail.com</a></p>
+        <p>Contact me at <a href="https://t.me/nurilloxon_7">my telegram</a></p>
+    </footer>
+</body>
+</html>
